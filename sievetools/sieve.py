@@ -97,6 +97,7 @@ def proportion_primes(all_nmax, which_func):
     
     """
     
+    
     all_proportions = []
     for nmax in all_nmax:
         all_primes = get_primes(nmax, method=which_func)
